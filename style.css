@@ -1,0 +1,61 @@
+* {
+  text-align: center;
+  max-width: 100%;
+  outline: none;
+}
+
+body {
+  background-image: radial-gradient(
+    circle at 104.17% 4.55%,
+    #c2ffa3 0,
+    #b0fea5 10%,
+    #9bfca8 20%,
+    #83f9ac 30%,
+    #66f6b0 40%,
+    #3cf2b5 50%,
+    #00eebb 60%,
+    #00eac3 70%,
+    #00e6cb 80%,
+    #00e2d5 90%,
+    #00dedf 100%
+  );
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: radial-gradient(
+    circle at 104.17% 4.55%,
+    #fdffa0 0,
+    #ebffa0 7.14%,
+    #d8ffa1 14.29%,
+    #c3ffa2 21.43%,
+    #abfea5 28.57%,
+    #90fba9 35.71%,
+    #6ef7af 42.86%,
+    #3cf2b5 50%,
+    #00edbd 57.14%,
+    #00e8c7 64.29%,
+    #00e3d3 71.43%,
+    #00dee0 78.57%,
+    #00daed 85.71%,
+    #00d6fb 92.86%,
+    #00d2ff 100%
+  );
+  width: 40vh;
+  height: 30vh;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+
+[type="submit"] {
+  margin-top: 1rem;
+}
