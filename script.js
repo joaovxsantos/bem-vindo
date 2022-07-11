@@ -9,7 +9,7 @@ let container = document.getElementsByTagName("div")[0]
 
 function tradeMomement() {
     h1.innerHTML = "Olá, " + input.value + "!"
-    h2.innerHTML = "Hoje é dia " + date.getDate() + correct(parseInt(date.getMonth() + 1)) + date.getFullYear()
+    h2.innerHTML = "Hoje é dia " + date.getDate() + "/" + correct(parseInt(date.getMonth() + 1)) +  "/" + date.getFullYear()
     hora()
 
 }
@@ -34,7 +34,7 @@ function correctH(a) {
 
 function correct(a) {
     if (a < 10) {
-        a = "/" + "0" + a + "/"
+        a = "0" + a
     }
     return a
 }
